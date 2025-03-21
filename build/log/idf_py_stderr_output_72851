@@ -1,0 +1,9 @@
+CMake Error at /home/user/esp/esp-idf-v5.4/tools/cmake/component.cmake:490 (add_library):
+  add_library cannot create target "__idf_main" because another target with
+  the same name already exists.  The existing target is a static library
+  created in source directory "/home/user/projects/PQC_wallet/main".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  main/CMakeLists.txt:20 (idf_component_register)
+
+
