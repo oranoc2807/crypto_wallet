@@ -23,8 +23,7 @@ void app_main(void) {
         printf("Error: Failed to initialize SHAKE256 RNG.\n");
         return;
     }
-
-    // Generate Falcon-512 key pair
+    
     int result = falcon_keygen_make(&rng, logn, private_key, privkey_size, public_key, pubkey_size, tmp, tmp_size);
     
     if (result == 0) {
