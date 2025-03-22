@@ -1,5 +1,5 @@
 {
-    "idf.pythonInstallPath": "/home/user/.espressif/python_env/idf5.4_py3.11_env/bin/python",
+    "idf.pythonInstallPath": "/home/user/.espressif/python_env/idf5.5_py3.11_env/bin/python",
     "idf.customExtraVars": {
         "IDF_TARGET": "esp32s3"
     },
@@ -9,5 +9,7 @@
     ],
     "idf.port": "/dev/ttyUSB0",
     "idf.flashType": "UART",
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "cmake.sourceDirectory": "/wsl.localhost/Debian/home/user/projects/crypto_wallet",
+    "idf.portWin": "COM5"
 }

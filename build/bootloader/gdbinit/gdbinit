@@ -1,0 +1,2 @@
+source /home/user/projects/crypto_wallet/build/bootloader/gdbinit/symbols
+source /home/user/projects/crypto_wallet/build/bootloader/gdbinit/connect

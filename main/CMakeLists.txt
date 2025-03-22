@@ -1,5 +1,6 @@
 idf_component_register(
     SRCS 
+        "key_storage.c"
         "PQC_wallet.c"
         "falcon/falcon.c"
         "falcon/codec.c"
