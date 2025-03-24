@@ -18,7 +18,7 @@ set(HEAD_HASH)
 file(READ "/home/user/projects/PQC_wallet/build/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
 
 string(STRIP "${HEAD_CONTENTS}" HEAD_CONTENTS)
-set(GIT_DIR "/home/user/esp/esp-idf-v5.4/.git")
+set(GIT_DIR "/home/user/projects/PQC_wallet/.git")
 # handle git-worktree
 if(EXISTS "${GIT_DIR}/commondir")
 	file(READ "${GIT_DIR}/commondir" GIT_DIR_NEW LIMIT 1024)

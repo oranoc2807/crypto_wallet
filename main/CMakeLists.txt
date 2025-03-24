@@ -1,6 +1,7 @@
 idf_component_register(
     SRCS 
-        "PQC_wallet.c"
+        "main.c"
+        "cryptography/key_storage.c"
         "falcon/falcon.c"
         "falcon/codec.c"
         "falcon/common.c"
@@ -15,6 +16,8 @@ idf_component_register(
         "falcon/vrfy.c"
     INCLUDE_DIRS 
         "."
+        "cryptography"
         "falcon"
 )
+
 

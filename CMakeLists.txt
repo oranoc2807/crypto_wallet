@@ -7,5 +7,5 @@ include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 include_directories($ENV{IDF_PATH}/components/falcon)
 
 # Set the project name
-project(PQC_wallet)
+project(main)
 
